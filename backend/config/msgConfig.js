@@ -1,0 +1,15 @@
+module.exports = msg = {
+  CodeUnprocessableEntity: 422,
+  CodeDataAlreadyExists: 409,
+  CodeInternalServerError: 500,
+  CodeUnAuthorized: 401,
+  CodeBadRequest: 400,
+  AppErrorMsgDefault: "errorDefaultMessage",
+  AppErrorMsgUnAuthorized: "errorUnauthorizedMessage",
+  AppErrorMsgUserExist: "errorUserExistMessage",
+  AppErrorMsgWrongPassword: "errorWrongPasswordMessage",
+  AppErrorMsgUnableToHashPassword: "errorUnableToHashPasswordMessage",
+  AppErrorMsgPasswordNotMatch: "errorPasswordNotMatchMessage",
+  AppErrorMsgEmailNotMatch: "errorEmailNotMatchMessage",
+  AppErrorMsgAccountDeleted: "errorAccountDeleteMessage",
+}
